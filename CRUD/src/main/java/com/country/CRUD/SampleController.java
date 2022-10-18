@@ -26,4 +26,14 @@ public class SampleController
     	return transformedvalues;
 	}
 
+	@GetMapping("/department") 
+	public List<String> getSample2(){
+		ArrayList<String> transformedvalues=new ArrayList<String>();
+    	for(EmployeeEntity emt:er.findAll()) {
+    		
+    		transformedvalues.add(emt.getDepartment());
+    	}
+    	return transformedvalues;
+	}
+
 }
