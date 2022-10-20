@@ -25,3 +25,4 @@ public class SampleController
 		return ir.getjoin(3);
 	}
 }
+

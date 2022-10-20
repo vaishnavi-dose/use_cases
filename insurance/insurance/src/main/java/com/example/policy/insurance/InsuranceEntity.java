@@ -17,7 +17,6 @@ public class InsuranceEntity
 	private String insurance_policy;
 	private String issue_date;
 	private String expiry_date;
-	
 	private String insurance_term;
 	public Integer getId() {
 		return id;

@@ -11,3 +11,4 @@ public interface InsuranceRepo extends JpaRepository<InsuranceEntity, Integer>
 	@Query(value = "select * from insurance i where i.id = ?1",nativeQuery = true)
 	List<InsuranceEntity> getjoin(Integer id);
 }
+
